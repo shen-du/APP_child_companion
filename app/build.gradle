@@ -29,7 +29,7 @@ android {
     defaultConfig {
         applicationId "com.example.peiqi"
         minSdkVersion 16
-        targetSdkVersion 26
+        targetSdkVersion 28//必须在29以下，不然无法定位
         versionCode 1
         versionName "1.0"
         multiDexEnabled true
